@@ -1,4 +1,4 @@
-var userType = 3; 
+var userType = 1; 
 //1 for validator, 2 for miner and other for normal users
 var firstName = "Rolf";
 var lastName = "Dobelli";
