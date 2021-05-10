@@ -7,8 +7,8 @@ if (userType == 1){
 }
 else if (userType == 2)
 {
-    console.log("Thank you"+" "+ firstName+" "+lastName+" for keeping the network secure");;
+    console.log("Thank you"+" "+ firstName+" "+lastName+" for keeping the network secure");
 }
 else {
-    console.log("Thank you"+" "+ firstName+" "+lastName+" for using the platform");;
+    console.log("Thank you"+" "+ firstName+" "+lastName+" for using the platform");
 }
