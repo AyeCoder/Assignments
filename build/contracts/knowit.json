@@ -1,0 +1,171 @@
+{
+  "contractName": "knowit",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/mansi/Desktop/FSTBlockchain/knowit/contracts/knowit.sol\":\"knowit\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/mansi/Desktop/FSTBlockchain/knowit/contracts/knowit.sol\":{\"keccak256\":\"0x98a1f925e16f8c42edef3fcd1a712587fa1515dd577a833af8f67dcb1ca864bf\",\"urls\":[\"bzz-raw://31cccfb063d0a8cc7c26e34a2e44353b90fe1b3d4119e920ca1c7946e0a9c7a9\",\"dweb:/ipfs/QmeEuVXeLNkdBRhvwqsJXaDNYGUFirvUdFGyLyDJSqGHNo\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220046905b72486e25afed84ab33007c3d727b8e2a301b0f2cbc49a9821b3d9276864736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220046905b72486e25afed84ab33007c3d727b8e2a301b0f2cbc49a9821b3d9276864736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "23:35:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "23:35:1:-:0;;;;;",
+  "source": "pragma solidity 0.8.0;\ncontract knowit{\n    string name;\n}",
+  "sourcePath": "/home/mansi/Desktop/FSTBlockchain/knowit/contracts/knowit.sol",
+  "ast": {
+    "absolutePath": "/home/mansi/Desktop/FSTBlockchain/knowit/contracts/knowit.sol",
+    "exportedSymbols": {
+      "knowit": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "knowit",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "mutability": "mutable",
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 37,
+            "src": "44:11:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "44:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 38,
+        "src": "23:35:1"
+      }
+    ],
+    "src": "0:58:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/mansi/Desktop/FSTBlockchain/knowit/contracts/knowit.sol",
+    "exportedSymbols": {
+      "knowit": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "knowit",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "mutability": "mutable",
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 37,
+            "src": "44:11:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "44:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 38,
+        "src": "23:35:1"
+      }
+    ],
+    "src": "0:58:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x47287d8E6A5edED36F6c914a68D00DA57e31c696",
+      "transactionHash": "0x324cd0656d4dd3a5b8c19eccdbf4cb5dbe74f2965be0c4d8d5d3abdacc6505db"
+    }
+  },
+  "schemaVersion": "3.4.0",
+  "updatedAt": "2021-06-11T06:55:52.563Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
